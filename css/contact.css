@@ -1,0 +1,191 @@
+main {
+  display: grid;
+  justify-content: center;
+  margin: 10px;
+}
+
+.contact-page-loader {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-page-loader-error {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-nav-link {
+  text-decoration: underline;
+}
+
+.contact-main-section {
+  max-width: 700px;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-size: 30px;
+  font-weight: normal;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+figure {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  color: #4b4b4b;
+}
+
+.contact-section {
+  display: none;
+}
+
+.contact-success-message {
+  display: none;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: green;
+  text-align: center;
+}
+
+.contact-success-icon {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-success-message-p {
+  color: #fff;
+  margin: 0px 0px 10px 0px;
+}
+
+.new-message-button {
+  display: none;
+  width: 130px;
+  height: 30px;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #f29f05;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name-container,
+.email-container,
+.subject-container {
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.name-container,
+.email-container,
+.subject-container,
+#message-input,
+.message-label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  display: block;
+}
+
+.name-label,
+.email-label,
+.subject-label,
+.message-label {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.name-error-style,
+.email-error-style,
+.subject-error-style,
+.message-error-style {
+  display: none;
+  color: red;
+  margin: 0px 0px 5px 0px;
+}
+
+#name-input,
+#email-input,
+#subject-input {
+  width: 100%;
+  height: 25px;
+  outline: none;
+  border-width: 1px;
+}
+
+#message-input {
+  width: 100%;
+  height: 100px;
+  outline: none;
+  border-width: 1px;
+}
+
+.contact-submit-button-container {
+  margin-top: 30px;
+}
+
+.contact-submit-button {
+  width: 130px;
+  height: 30px;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #f29f05;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+}
+
+.back-to-top-arrow {
+  right: 35px;
+  bottom: 120px;
+  font-size: 40px;
+  color: red;
+  background-color: #fff;
+  position: absolute;
+  position: fixed;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 544px) {
+  h1 {
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,137 @@
+main {
+  display: grid;
+  justify-content: center;
+  margin: 10px;
+}
+
+.blog-nav-link {
+  text-decoration: underline;
+}
+
+.blog-page-loader {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-page-loader-error {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.posts-main-image-container {
+  max-width: 700px;
+}
+
+.posts-main-image {
+  max-width: 700px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+figure {
+  display: none;
+}
+
+.posts-text-height {
+  overflow: hidden;
+  height: 265px;
+}
+
+.posts-date,
+.posts-author {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.posts-h2 {
+  margin-top: -4px;
+  background-color: #f29f05;
+  color: #fff;
+  padding: 3px;
+  font-size: 23px;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 23px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #4b4b4b;
+}
+
+.button-and-social-media-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.posts-read-more-button {
+  width: 180px;
+  height: 35px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #f29f05;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.view-more-button {
+  display: none;
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #f29f05;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.back-to-top-arrow {
+  right: 35px;
+  bottom: 120px;
+  font-size: 40px;
+  color: red;
+  background-color: #fff;
+  position: absolute;
+  position: fixed;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 544px) {
+  h1 {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .blogg-social-media-container {
+    display: none;
+  }
+
+  .posts-h2,
+  h3 {
+    font-size: 20px;
+  }
+}
